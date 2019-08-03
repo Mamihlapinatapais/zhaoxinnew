@@ -1,0 +1,80 @@
+{
+  "pages": [
+    
+
+
+
+    "pages/index/index",
+    "pages/index/index-newsdetails/index-newsdetails",
+    "pages/index/index-newscenter/index-newscenter",
+    "pages/index/index-intro/index-intro",
+    
+
+
+    "pages/mine/mine-mineinfo/mine-mineinfo",
+    "pages/mine/mine-infodetail/mine-infodetail",
+    "pages/mine/mine-myinfoo/mine-myinfoo",
+    "pages/mine/mine-mine/mine-mine",
+    "pages/mine/mine-myinfo/mine-info",
+    "pages/mine/mine-QRcode/mine-QRcode",
+
+
+
+    "pages/rush/rush_index/rush_index",
+    "pages/rush/rush_details/rush_details",
+    "pages/rush/rush_ticket/rush_ticket",
+
+
+
+    "pages/interview/interview_index/interview_index",
+    "pages/interview/interview_ready/interview_ready",
+    "pages/interview/interview_check_in/interview_check_in",
+    "pages/interview/interview_result/interview_result",
+    "pages/interview/interview_result_failed/interview_result_failed",
+    "pages/interview/interview_result_success/interview_result_success",
+    "pages/interview/interview_result_waiting/interview_result_waiting",
+    "pages/interview/modify_interview_time/modify_interview_time",
+    "pages/interview/result/result",
+
+
+
+    "pages/registrationSystem/again/again",
+    "pages/registrationSystem/apply/apply",
+    "pages/registrationSystem/picture_1/picture_1",
+     "pages/registrationSystem/direction/direction",
+
+     "pages/map/map"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#CCCCCC",
+    "selectedColor": "#4783B5",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "/images/index-active.png",
+        "iconPath": "/images/index.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "/images/user-active.png",
+        "iconPath": "/images/user.png",
+        "pagePath": "pages/mine/mine-mine/mine-mine",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序导航"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

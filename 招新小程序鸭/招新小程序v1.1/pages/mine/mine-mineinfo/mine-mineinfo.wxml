@@ -1,0 +1,23 @@
+<!--pages/mineinfo/mineinfo.wxml-->
+ <navigator class="mineinfo" url="/pages/mine/mine-infodetail/mine-infodetail?mino={{item.id}}" wx:for="{{infolist}}" wx:key="id" data-id="{{item.id}}" bindtap="changStatus"> 
+
+
+
+
+  <view class="include12">
+    <view class="infotext1">通知公告</view>
+    <view wx:if="{{item.status == 0}}">
+      <image class="infotext12" src="/images/dot.png"></image>
+    </view>
+    <view class="infotext2">{{item.time}} {{item.time1}}</view>
+  </view>
+
+
+  <view class="include34">
+    <view class="infotext3">{{item.brief}}</view>
+    <image class="infotext4" src="{{images1}}"></image>
+  </view>
+
+
+</navigator> 
+

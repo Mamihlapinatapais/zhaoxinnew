@@ -1,0 +1,29 @@
+<!--pages/mine/mine.wxml-->
+<view>
+
+<!--头像及更多-->
+<view class="topBox" bindtap='goTopersonInfo'>
+    <image src="{{avatar}}" class='avatar'></image>
+    <view class="nameBox">
+        <view class="name">{{nickName}}<image src="{{sexLogo}}" class="sexLogo"></image></view>
+        <view class="wxNum">电话号：{{teleNum}}</view>
+    </view>
+    <image src="{{more}}" class='more'></image>
+</view>
+
+<!--我的消息-->
+<view class="myNewsBox"  bindtap='goTomineinfo'>
+    <view class="myNews_icon"><image src="{{myNewsIcon}}" class="myNewsIcon"></image></view>
+    <view class="myNews">我的消息</view>
+   <image src="{{more}}" class='more1'></image>
+</view>
+
+<!--关于我们-->
+<view class="aboutBox"  bindtap='goToQRcode'>
+    <view class="about_icon" ><image src="{{aboutIcon}}" class="aboutIcon"></image></view>
+    <view class="about">我的二维码</view>
+   <image src="{{more}}" class='moreb'></image>
+</view>
+
+<button open-type="share" class="share">推荐给朋友</button>
+</view>

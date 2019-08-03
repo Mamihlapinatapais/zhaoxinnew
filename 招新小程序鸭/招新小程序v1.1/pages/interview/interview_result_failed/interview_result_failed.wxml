@@ -1,0 +1,10 @@
+<view class="superbox1">
+    <!-- 图片 -->
+    <view class="box1">
+        <image src="../../../images/failed.png" />
+    </view>
+    <!-- 面试失败 -->
+    <view class="box2">
+        面试失败
+    </view>
+</view>
